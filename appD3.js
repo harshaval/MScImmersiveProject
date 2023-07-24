@@ -5,7 +5,7 @@ console.log(dataset.length);
 
  var gridMax = Math.sqrt(dataset.length);
 
- var content = d3.select("#helloworld");
+ var content = d3.select("#whatup");
 
   // we set attributes on our cubes to determine how they are rendered
   var x = 1;
