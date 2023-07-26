@@ -18,7 +18,7 @@ console.log(dataset.length);
  var myBars = content.selectAll("a-box.bar")
                .data(dataset)
                .enter()
-               .append("a-box")
+               .append("a-entity")
                .classed("bar", true)
                .attr(
                   "position", function(d,i) {
