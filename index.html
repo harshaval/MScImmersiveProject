@@ -9,10 +9,8 @@
     </head>
     <body style = 'margin: 0px; overflow: hidden'>
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-            <a-marker camera preset="hiro">
                 <!--a-box color="yellow" gps-entity-place="latitude: 53.221634; longitude: -4.130207"/-->
                 <a-entity id="whatup" rotation="0 0 0" position="-0.01 -0.0 -0.0" scale="0.1 0.1 0.1"></a-entity>
-            </a-marker>
             <a-camera gps-camera rotation-reader></a-camera>
         </a-scene>
         <script src="appD3.js"></script>

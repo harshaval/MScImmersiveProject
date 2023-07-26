@@ -34,7 +34,7 @@ console.log(dataset.length);
                 .attr("depth", function(d){return 0.9;})
                 .attr("color", function(d){
                     var letters = '0123456789ABCDEF'.split('');
-                    var color = '#';
+                    var color = '#123524';
                     for (var i = 0; i < 6; i++) {
                         color += letters[Math.floor(Math.random() * 16)];
                     }
