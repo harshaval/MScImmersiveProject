@@ -50,7 +50,7 @@ function staticLoadPlaces() {
 }
 
 // getting places from REST APIs
-function dynamicLoadPlaces(position) {
+async function dynamicLoadPlaces(position) {
     let params = {
         radius: 300,    // search places not farther than this value (in meters)
         clientId: 'WZBGI5MEVEKJWDVBFRZ4XYDRYUMVVMS44YKZ5WA0MKA43JB1',   // add your credentials here
@@ -69,16 +69,13 @@ function dynamicLoadPlaces(position) {
         &client_secret=${params.clientSecret}
         &limit=15
         &v=${params.version}`;
-    return fetch(endpoint)
-        .then((res) => {
-            return res.json()
-                .then((resp) => {
-                    return resp.response.venues;
-                })
-        })
-        .catch((err) => {
-            console.error('Error with places API', err);
-        })
+    try {
+        const res = await fetch(endpoint);
+        const resp = await res.json();
+        return resp.response.venues;
+    } catch (err) {
+        console.error('Error with places API', err);
+    }
 };
 
 function renderPlaces(places) {
