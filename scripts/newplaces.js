@@ -27,7 +27,7 @@ window.onload = () => {
                 box.setAttribute('material', { color: 'red' } );
                 box.setAttribute("position", {
                     x : 0,
-                    y : 20,
+                    y : 50,
                     z: 0
                 } );
                 const text = document.createElement("a-text");
