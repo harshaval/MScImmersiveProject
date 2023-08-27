@@ -1,9 +1,9 @@
 window.onload = () => {
     let downloaded = false;
 
-    const el = document.querySelector("[gps-new-camera]");
+    const cam = document.querySelector("[gps-new-camera]");
 
-    el.addEventListener("gps-camera-update-position", async(e) => {
+    cam.addEventListener("gps-camera-update-position", async(e) => {
         if(!downloaded) {
             const west = e.detail.position.longitude - 0.05,
                   east = e.detail.position.longitude + 0.05,
