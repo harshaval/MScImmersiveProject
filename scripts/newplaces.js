@@ -21,8 +21,8 @@ function staticLoadPlaces() {
             name: 'Barlows',
             location: {
                 // decomment the following and add coordinates:
-                lat: 53.222303686325006,
-                lng: -4.129229144041981,
+                lat: 53.222220,
+                lng: -4.129732,
             },
         }
     ];
