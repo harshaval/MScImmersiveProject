@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pin (Free model)
+* source:	https://sketchfab.com/3d-models/pin-free-model-81cee3ac55ce4a77bcfb3b5f3f53a2d8
+* author:	inter_net (https://sketchfab.com/inter_net)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pin (Free model)" (https://sketchfab.com/3d-models/pin-free-model-81cee3ac55ce4a77bcfb3b5f3f53a2d8) by inter_net (https://sketchfab.com/inter_net) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

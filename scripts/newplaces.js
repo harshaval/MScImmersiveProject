@@ -12,7 +12,6 @@ function staticLoadPlaces() {
         {
             name: 'Home',
             location: {
-                // decomment the following and add coordinates:
                 lat: 53.221641,
                 lng: -4.130223,
             },
@@ -20,7 +19,6 @@ function staticLoadPlaces() {
         {
             name: 'Barlows',
             location: {
-                // decomment the following and add coordinates:
                 lat: 53.222220,
                 lng: -4.129732,
             },
@@ -28,18 +26,18 @@ function staticLoadPlaces() {
     ];
 }
 
-var models = [
+var model = [
     {
-        url: './assets/map-pin.gltf',
-        scale: '0.5 0.5 0.5',
-        info: 'Home marker',
+        url: './assets/pin/scene.gltf',
+        scale: '0.52 0.2 0.2',
+        info: 'Home',
         rotation: '0 180 0',
     },
     {
-        url: './assets/pin.gltf',
+        url: './assets/menu/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Barlows marker',
+        info: 'Barlows',
     },
 ];
 

@@ -3,32 +3,32 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
-        0.1981114149093628,
-        0.1981114149093628,
-        0.4336460530757904
+        0.8500000238418579,
+        0.07023745030164719,
+        0.5
       ],
       "min": [
-        -0.1981114149093628,
-        -0.1981114149093628,
-        -0.433646023273468
+        -0.8500000238418579,
+        -0.07023745030164719,
+        -0.5
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 7188,
+      "byteOffset": 187992,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
-        0.9975681900978088,
-        0.9975489974021912,
+        1.0,
+        1.0,
         1.0
       ],
       "min": [
-        -0.9975298047065735,
-        -0.9975489974021912,
+        -1.0,
+        -1.0,
         -1.0
       ],
       "type": "VEC3"
@@ -36,17 +36,17 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
         1.0,
-        0.9999997615814209,
-        0.9970613121986389,
+        1.0,
+        1.0,
         1.0
       ],
       "min": [
-        -0.936916708946228,
-        -0.9998594522476196,
-        -0.6603633761405945,
+        -1.0,
+        -1.0,
+        -1.0,
         1.0
       ],
       "type": "VEC4"
@@ -54,91 +54,91 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
-        0.9911869168281555,
-        0.9948263168334961
+        0.9988048672676086,
+        0.9807944893836975
       ],
       "min": [
-        0.004956765100359917,
-        0.01298166811466217
+        0.001195169985294342,
+        0.0011951923370361328
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 4792,
+      "byteOffset": 125328,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
-        0.9911869168281555,
-        0.9948263168334961
+        0.9988048672676086,
+        0.9807944893836975
       ],
       "min": [
-        0.004956765100359917,
-        0.01298166811466217
+        0.001195169985294342,
+        0.0011951923370361328
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 9584,
+      "byteOffset": 250656,
       "componentType": 5126,
-      "count": 599,
+      "count": 15666,
       "max": [
-        0.9911869168281555,
-        0.9948263168334961
+        0.9988048672676086,
+        0.9807944893836975
       ],
       "min": [
-        0.004956765100359917,
-        0.01298166811466217
+        0.001195169985294342,
+        0.0011951923370361328
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 2490,
+      "count": 26832,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "plaggy (https://sketchfab.com/plaggy)",
+      "author": "Zende (https://sketchfab.com/Zende)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/cc0-pin-2-4e7f37bee0674d569f558b0f08b7fdb7",
-      "title": "CC0 - Pin 2"
+      "source": "https://sketchfab.com/3d-models/coffee-menu-b43ab23ea54d4e2a95895115bac23bb4",
+      "title": "Coffee Menu"
     },
-    "generator": "Sketchfab-12.64.0",
+    "generator": "Sketchfab-14.11.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 9960,
+      "byteLength": 107328,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 14376,
-      "byteOffset": 9960,
+      "byteLength": 375984,
+      "byteOffset": 107328,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 14376,
-      "byteOffset": 24336,
+      "byteLength": 375984,
+      "byteOffset": 483312,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 9584,
-      "byteOffset": 38712,
+      "byteLength": 250656,
+      "byteOffset": 859296,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -146,26 +146,28 @@
   ],
   "buffers": [
     {
-      "byteLength": 48296,
+      "byteLength": 1109952,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/Pin2_baseColor.png"
+      "uri": "textures/Menu_baseColor.png"
     },
     {
-      "uri": "textures/Pin2_metallicRoughness.png"
+      "uri": "textures/Menu_metallicRoughness.png"
     },
     {
-      "uri": "textures/Pin2_normal.png"
+      "uri": "textures/Menu_normal.png"
     }
   ],
   "materials": [
     {
-      "name": "Pin2",
+      "doubleSided": true,
+      "name": "Menu",
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 1
       },
       "occlusionTexture": {
         "index": 1
@@ -182,7 +184,7 @@
   ],
   "meshes": [
     {
-      "name": "Pin2_Pin2_0",
+      "name": "Menu_Menu_0",
       "primitives": [
         {
           "attributes": {
@@ -230,16 +232,16 @@
         2
       ],
       "matrix": [
-        0.02539999969303608,
+        0.009999999776482582,
         0.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.02539999969303608,
+        0.009999999776482582,
         0.0,
         0.0,
-        -0.02539999969303608,
+        -0.009999999776482582,
         0.0,
         0.0,
         0.0,
@@ -247,7 +249,7 @@
         0.0,
         1.0
       ],
-      "name": "1c31d7bb12504fc3af76163339c65cdd.fbx"
+      "name": "Coffee Menu.fbx"
     },
     {
       "children": [
@@ -260,28 +262,28 @@
         4
       ],
       "matrix": [
-        0.7755222013737206,
-        -0.015711157892443095,
-        -0.6311247695140296,
-        0.0,
-        -0.5633223789720028,
-        0.43409681596619143,
-        -0.7030134079214548,
-        0.0,
-        0.2850144075757952,
-        0.9007292122972882,
-        0.32780127148704785,
+        100.0,
         0.0,
         0.0,
-        -0.0007392168045043945,
-        -2.0690889002139556e-09,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ],
-      "name": "Pin2"
+      "name": "Menu"
     },
     {
       "mesh": 0,
-      "name": "Pin2_Pin2_0"
+      "name": "Menu_Menu_0"
     }
   ],
   "samplers": [
