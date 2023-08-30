@@ -30,18 +30,18 @@ window.onload = () => {
                     y : 50,
                     z: 0
                 } );
-                const text = document.createElement("a-text");
+                const label = document.createElement("a-text");
                 const textScale = 100;
-                text.setAttribute("look-at", "[gps-new-camera]");
-                text.setAttribute("scale", {
+                label.setAttribute("look-at", "[gps-new-camera]");
+                label.setAttribute("scale", {
                     x: textScale,
                     y: textScale,
                     z: textScale
                 });
-                text.setAttribute("value", feature.properties.name);
-                text.setAttribute("align", "center");
+                label.setAttribute("value", feature.properties.name);
+                label.setAttribute("align", "center");
                 compoundEntity.appendChild(box);
-                compoundEntity.appendChild(text);
+                compoundEntity.appendChild(label);
                 document.querySelector("a-scene").appendChild(compoundEntity);
             });
         }
